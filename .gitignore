@@ -1,0 +1,4 @@
+.DS_*
+
+# Dependency directories
+node_modules/
