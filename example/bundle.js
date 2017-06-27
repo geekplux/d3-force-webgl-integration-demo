@@ -102217,9 +102217,24 @@ var defaultOptions = {
   width: window.innerWidth,
   height: window.innerHeight,
   container: document.body
+};
 
-  // render.pixi(defaultOptions)
-};_index2.default.three(defaultOptions);
+_index2.default.pixi(defaultOptions);
+
+var threeBtn = document.getElementById('three');
+var pixiBtn = document.getElementById('pixi');
+
+threeBtn.addEventListener('click', function () {
+  document.querySelector('canvas').remove();
+  document.querySelector('h1').innerHTML = 'by Three.js';
+  _index2.default.three(defaultOptions);
+});
+
+pixiBtn.addEventListener('click', function () {
+  document.querySelector('canvas').remove();
+  document.querySelector('h1').innerHTML = 'by PixiJS';
+  _index2.default.pixi(defaultOptions);
+});
 
 /***/ }),
 /* 198 */
