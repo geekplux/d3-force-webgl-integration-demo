@@ -8,4 +8,5 @@ const defaultOptions = {
   container: document.body
 }
 
-render.pixi(defaultOptions)
+// render.pixi(defaultOptions)
+render.three(defaultOptions)
