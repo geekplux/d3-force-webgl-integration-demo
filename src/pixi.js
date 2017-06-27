@@ -16,7 +16,7 @@ export default function ({
   stage.addChild(links)
   container.appendChild(renderer.view)
 
-  let simulation = d3.forceSimulation()
+  const simulation = d3.forceSimulation()
     .force('link', d3.forceLink().id((d) => d.id))
     .force('charge', d3.forceManyBody())
     .force('center', d3.forceCenter(width / 2, height / 2))
