@@ -6,7 +6,7 @@ There is a [online demo](https://geekplux.github.io/d3-force-webgl-integration-d
 
 ### Preview
 
-![](https://ooo.0o0.ooo/2017/07/09/59610ee4d02d5.png)
+![](./preview.png)
 
 ### How to run
 
