@@ -10,8 +10,13 @@ export default function ({
 }) {
   const scene = new THREE.Scene()
   const camera = new THREE.OrthographicCamera(0, width, height, 0, 1, 1000)
-  const renderer = new THREE.WebGLRenderer({alpha: true})
+  const renderer = new THREE.WebGLRenderer({
+    antialias: true,
+    precision: 'highp',
+    alpha: true
+  })
   renderer.setSize(width, height)
+  renderer.setPixelRatio(window.devicePixelRatio)
   container.appendChild(renderer.domElement)
   camera.position.z = 5
 
