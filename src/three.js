@@ -54,11 +54,6 @@ export default function ({
       line.geometry.vertices[1] = new THREE.Vector3(target.x, target.y, -1)
     })
 
-    render(scene, camera)
-  }
-
-  function render () {
-    requestAnimationFrame(render)
     renderer.render(scene, camera)
   }
 }
