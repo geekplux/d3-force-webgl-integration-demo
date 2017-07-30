@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D3 force and WebGL integration demo</title>
+    <meta charset="utf-8">
+    <style>
+      .control {
+        position: absolute;
+      }
+      h1, h3 {
+        font-family: monospace;
+      }
+      h3 {
+        font-style: italic;
+      }
+      button {
+        width: 150px;
+        height: 30px;
+        color: #000;
+        background-color: transparent;
+        border: 2px solid #000;
+        outline: none;
+        transition: .3s;
+      }
+      button:hover {
+        color: #fff;
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="control">
+      <h1>by PixiJS</h3>
+      <h3>D3 force and WebGL integration demo</h1>
+      <div class="buttons">
+        <button id="pixi">PixiJS</button>
+        <button id="three">Three.js</button>
+      </div>
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
