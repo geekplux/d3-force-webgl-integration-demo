@@ -2,6 +2,8 @@
 
 > Integrating WebGL and D3-force to improve performance.
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/d3-force-webgl-integration-demo'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/d3-force-webgl-integration-demo.svg' /></a>
+
 There is a [online demo](https://geekplux.github.io/d3-force-webgl-integration-demo).
 
 ### Preview
